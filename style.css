@@ -23,7 +23,7 @@
   }
 
   .header__list {
-    max-width: 70%;
+    min-width: 75%;
     list-style-type: none;
     padding: 0;
     display: flex;
