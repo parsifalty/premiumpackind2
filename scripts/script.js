@@ -5,12 +5,7 @@ headerLink.addEventListener('click', function() {
       console.log(headerListList);
 });
 
-/* headerListList.addEventListener('mouseout', function() { 
+ headerListList.addEventListener('mouseout', function() { 
       headerListList.classList.toggle('header__list-list_visibility');
       console.log(headerListList);
 }); 
-
- headerListList.addEventListener('mouseout', function() { 
-      headerListList.classList.remove('header__list-list_visibility');
-      console.log(headerListList);
-}); */
