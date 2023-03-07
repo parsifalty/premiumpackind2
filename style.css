@@ -1148,9 +1148,9 @@ to {
   }
 
   .about {
-    margin-bottom: 80px;
     max-width: 90%;
     margin: 0 auto;
+    margin-bottom: 80px;
   }
 
   .about__title {
@@ -1159,7 +1159,7 @@ to {
     font-weight: 900;
     margin: 0;
     border-bottom: 3px solid black;
-    max-width: 170px;
+    max-width: 200px;
   }
 
   .about__paragraph {
