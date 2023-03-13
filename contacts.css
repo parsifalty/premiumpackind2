@@ -43,6 +43,7 @@ padding-top: 50px;
     gap: 10px;
     flex-direction: column;
     margin-left: auto;
+    max-width: 50%;
 }
 
 .contact-information__columnthree { 
@@ -54,7 +55,7 @@ display: flex;
 flex-direction: column;
 gap: 10px;
 margin-left: auto;
-min-width: 500px;
+min-width: 50%;
 }
 
 .text-color { 
