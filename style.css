@@ -2,7 +2,7 @@
   max-width: 1280px;
   min-width: 320px;
   margin: 0 auto;
-  font-family: "play", sans-serif;
+  font-family: 'play', sans-serif;
   background-color: #f2f2f2;
 }
 
@@ -160,7 +160,7 @@
   .possibilities__list-link {
     color: black;
     text-decoration: none;
-    font-family: "play", sans-serif;
+    font-family: 'play', sans-serif;
     font-size: 16px;
     font-weight: 400px;
     opacity: 0.8;
@@ -174,7 +174,7 @@
     margin: 0;
     text-decoration: none;
     color: black;
-    font-family: "play", sans-serif;
+    font-family: 'play', sans-serif;
     line-height: 1.2;
     font-size: 25px;
     text-align: left;
@@ -249,7 +249,7 @@
   .grid-template__title {
     margin: 0;
     margin-top: 10px;
-    font-family: "Manrope";
+    font-family: 'play';
     font-weight: 700;
     font-size: 23px;
   }
@@ -257,7 +257,7 @@
   .grid-template__paragraph {
     margin: 0;
     margin-top: 10px;
-    font-family: "Manrope";
+    font-family: 'play';
     font-weight: 400;
     font-size: 16px;
   }
@@ -273,7 +273,7 @@
 
   .footer__paragraph {
     margin: 0;
-    font-family: "Manrope";
+    font-family: 'play';
     font-weight: 400;
     font-size: 18px;
     line-height: 1.6;
@@ -295,7 +295,7 @@
   .footer__link {
     text-decoration: underline;
     color: black;
-    font-family: "Manrope";
+    font-family: 'play';
     font-weight: 400;
     font-size: 18px;
     line-height: 1.2;
@@ -482,7 +482,7 @@ max-width: 210px;
 .possibilities__list-link {
 color: black;
 text-decoration: none;
-font-family: "play", sans-serif;
+font-family: 'play', sans-serif;
 font-size: 16px;
 font-weight: 400px;
 opacity: 0.8;
@@ -496,7 +496,7 @@ margin-top: 15px;
 margin: 0;
 text-decoration: none;
 color: black;
-font-family: "play", sans-serif;
+font-family: 'play', sans-serif;
 line-height: 1.2;
 font-size: 25px;
 text-align: left;
@@ -576,7 +576,7 @@ opacity: 0.1;
 .grid-template__title {
 margin: 0;
 margin-top: 10px;
-font-family: "Manrope";
+font-family: 'play';
 font-weight: 700;
 font-size: 23px;
 }
@@ -584,7 +584,7 @@ font-size: 23px;
 .grid-template__paragraph {
 margin: 0;
 margin-top: 10px;
-font-family: "Manrope";
+font-family: 'play';
 font-weight: 400;
 font-size: 16px;
 }
@@ -600,7 +600,7 @@ padding-bottom: 100px;
 
 .footer__paragraph {
 margin: 0;
-font-family: "Manrope";
+font-family: 'play';
 font-weight: 400;
 font-size: 18px;
 line-height: 1.6;
@@ -622,7 +622,7 @@ flex-direction: column;
 .footer__link {
 text-decoration: underline;
 color: black;
-font-family: "Manrope";
+font-family: 'play';
 font-weight: 400;
 font-size: 18px;
 line-height: 1.2;
@@ -806,7 +806,7 @@ max-width: 210px;
 .possibilities__list-link {
 color: black;
 text-decoration: none;
-font-family: "play", sans-serif;
+font-family: 'play', sans-serif;
 font-size: 16px;
 font-weight: 400px;
 opacity: 0.8;
@@ -820,7 +820,7 @@ margin-top: 15px;
 margin: 0;
 text-decoration: none;
 color: black;
-font-family: "play", sans-serif;
+font-family: 'play', sans-serif;
 line-height: 1.2;
 font-size: 25px;
 text-align: left;
@@ -895,7 +895,7 @@ opacity: 0.1;
 .grid-template__title {
 margin: 0;
 margin-top: 10px;
-font-family: "Manrope";
+font-family: 'play';
 font-weight: 700;
 font-size: 23px;
 max-width: 120px;
@@ -904,7 +904,7 @@ max-width: 120px;
 .grid-template__paragraph {
 margin: 0;
 margin-top: 10px;
-font-family: "Manrope";
+font-family: 'play';
 font-weight: 400;
 font-size: 16px;
 max-width: 100px;
@@ -921,7 +921,7 @@ padding-bottom: 100px;
 
 .footer__paragraph {
 margin: 0;
-font-family: "Manrope";
+font-family: 'play';
 font-weight: 400;
 font-size: 18px;
 line-height: 1.6;
@@ -943,7 +943,7 @@ flex-direction: column;
 .footer__link {
 text-decoration: underline;
 color: black;
-font-family: "Manrope";
+font-family: 'play';
 font-weight: 400;
 font-size: 18px;
 line-height: 1.2;
@@ -1141,7 +1141,7 @@ to {
     margin: 0;
     text-decoration: none;
     color: black;
-    font-family: "play", sans-serif;
+    font-family: 'play', sans-serif;
     line-height: 1.2;
     font-size: 25px;
     text-align: left;
@@ -1219,7 +1219,7 @@ to {
   .grid-template__title {
     margin: 0;
     margin-top: 10px;
-    font-family: "Manrope";
+    font-family: 'play';
     font-weight: 700;
     font-size: 23px;
   }
@@ -1227,7 +1227,7 @@ to {
   .grid-template__paragraph {
     margin: 0;
     margin-top: 10px;
-    font-family: "Manrope";
+    font-family: 'play';
     font-weight: 400;
     font-size: 16px;
   }
@@ -1268,7 +1268,7 @@ to {
   .footer__link {
     text-decoration: underline;
     color: black;
-    font-family: "Manrope";
+    font-family: 'play';
     font-weight: 400;
     font-size: 18px;
     line-height: 1.2;
