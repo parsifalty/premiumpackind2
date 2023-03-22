@@ -7,13 +7,7 @@ let headerEquipmentList = document.querySelector('.header__equipment-list');
 let headerServicesList = document.querySelector('.header__services-list');
 let headerMaterialsList = document.querySelector('.header__materials-list');
 let headerListList = document.querySelector('.header__list-list');
-let headerLanguage = document.querySelector('.header__language');
-let headerLanguageList = document.querySelector('.header__language-list');
 
-headerLanguage.addEventListener('click', function(){ 
-      headerLanguageList.classList.toggle('header__list-list_visibility');
-      console.log(headerLanguageList);
-});
 
 headerEquipment.addEventListener('click', function(){
 headerEquipmentList.classList.toggle('header__list-list_visibility');
@@ -28,5 +22,13 @@ headerServices.addEventListener('click', function(){
 headerMaterials.addEventListener('click', function(){ 
       headerMaterialsList.classList.toggle('header__list-list_visibility');
       headerMaterials.classList.toggle('header__list-link_active');
-})
+});
+
+let headerLanguage = document.querySelector('.header__language');
+let headerLanguageList = document.querySelector('.header__language-list');
+
+headerLanguage.addEventListener('click', function(){ 
+      headerLanguageList.classList.toggle('header__list-list_visibility');
+      console.log(headerLanguageList);
+});
 
