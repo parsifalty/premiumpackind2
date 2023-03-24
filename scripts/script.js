@@ -60,3 +60,13 @@ let headerLanguageList = document.querySelector('.header__language-list');
       console.log(headerLanguageList);
 }); */
 
+fetch('header.html')
+  .then(response => response.text())
+  .then(data => {
+    const nav = document.createElement('nav');
+    nav.innerHTML = data;
+    // Добавляем <header> на страницу
+    document.body.insertBefore(header, document.body.firstChild);
+});
+
+
