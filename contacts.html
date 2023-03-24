@@ -24,22 +24,51 @@
             <img src="./images/logo.svg" class="logo logo_place_header"></a>
         </div>
         <ul class="header__list">
-            <li class="header__list-item"><a class="header__list-link" href="#">Оборудование</a>
-                <ul class="header__list-list">
-                    <li class="header__list-list-item">Упаковочные машины</li>
-                    <li class="header__list-list-item">Пилы и мясорубки</li>
-                    <li class="header__list-list-item">Коптильные шкафы</li>
-                    <li class="header__list-list-item">Компостеры</li>
-                    <li class="header__list-list-item">Трейсиллеры</li>
-                    <li class="header__list-list-item">Оборудование для нарезки</li>
-                </ul>
+            <div class="header_box1">
+            <li class="header__list-item">
+                <a class="header__list-link header__equipment" href="#" id="equipment">Оборудование ⬆️</a>
             </li>
-            <li class="header__list-item"><a class="header__list-link" href="#">Услуги</a></li>
-            <li class="header__list-item"><a class="header__list-link" href="#">Материалы</a></li>
-            <li class="header__list-item"><a class="header__list-link" href="#">Контакты</a></li>
-            <li class="header__list-item"><a class="header__list-link" href="#">+373 68 684416</a></li>
+            <li class="header__list-item">
+                <a class="header__list-link header__services" href="#" id="services">Услуги ⬆️</a>
+            </li>
+            <li class="header__list-item"><a class="header__list-link
+                header__materials" href="#" id="maretials">Материалы ⬆️</a>
+            </li>
+        </div> 
+            <div class="header__box2">
+            <li class="header__list-item">
+                <label for="languages"><a class="header__list-link header__languages">Язык</a></label>
+    <select name="languages" id="languages">
+      <option value="russian">Ru</option>
+      <option value="romanian">Ro</option>
+      <option value="english">En</option>
+    </select>
+            </li>
+            <li class="header__list-item">
+                <a class="header__list-link" href="./contacts.html">+373 68 684416</a>
+            </li>
+        </div>
         </ul>
     </div>
+     <ul class="header__list-list header__equipment-list">
+        <li class="header__list-list-item">Упаковочные машины</li>
+        <li class="header__list-list-item">Пилы и мясорубки</li>
+        <li class="header__list-list-item">Коптильные шкафы</li>
+        <li class="header__list-list-item">Компостеры</li>
+        <li class="header__list-list-item">Трейсиллеры</li>
+        <li class="header__list-list-item">Оборудование для нарезки</li>
+    </ul> 
+    <ul class="header__list-list header__services-list">
+        <li class="header__list-list-item">Упаковочные машины</li>
+        <li class="header__list-list-item">Трейсиллеры</li>
+        <li class="header__list-list-item">Оборудование для нарезки</li>
+    </ul> 
+    <ul class="header__list-list header__materials-list">
+        <li class="header__list-list-item">Упаковочные машины</li>
+        <li class="header__list-list-item">Пилы и мясорубки</li>
+        <li class="header__list-list-item">Коптильные шкафы</li>
+    </ul> 
+    
     </nav>
     <main class="content">
         <section class="contact-information">
@@ -49,16 +78,33 @@
                 <div class="contact-information__columnone">
                     <h2 class="contact-information__columnone-title">Контактная информация</h2>
                     </div>
-                <div class="contact-information__columntwo">
-                <p class="contact-information__paragraph-box"><span class="text-color">Адрес  </span>Republica Moldova, Chisinau, str. Calea Mosilor, 11/2, MD-2024</p>
-                <p class="contact-information__paragraph-box"><span class="text-color">Телефон  </span>+373 68 68 44 16</p>
-                <p class="contact-information__paragraph-box"><span class="text-color">Эл. почта  </span>premiumpackind@gmail.com</p>
-                <p class="contact-information__paragraph-box"><span class="text-color">Директор  </span>Litvac Igor</p>
-            </div>
+                    <ul class="contact-information__columnl">
+                      <li class="listy"><span class="text-color text-align">Адрес  </span>  <p class="contact-information__paragraph-box">Republica Moldova, Chisinau, str. Calea Mosilor, 11/2, MD-2024</p></li>
+                      <li class="listy"><span class="text-color">Телефон  </span><p class="contact-information__paragraph-box">+373 68 68 44 16</p></li>
+                        <li class="listy"><span class="text-color">Эл. почта  </span><p class="contact-information__paragraph-box">premiumpackind@gmail.com</p></li>
+                            <li class="listy"><span class="text-color">Директор  </span><p class="contact-information__paragraph-box">Litvac Igor</p></li> 
+                    </ul>
+               <!-- <div class="contact-information__columntwo">
+                <p class="contact-information__paragraph-box">Republica Moldova, Chisinau, str. Calea Mosilor, 11/2, MD-2024</p>
+                <p class="contact-information__paragraph-box">+373 68 68 44 16</p>
+                <p class="contact-information__paragraph-box">premiumpackind@gmail.com</p>
+                <p class="contact-information__paragraph-box">Litvac Igor</p>
+            </div> -->
             </article>
             <article class="contact-information__columns-area">
                 <div class="contact-information__columnthree-title"><h2 class="contact-information__columnthree-title">Реквизиты</h2></div>
-                <div class="contact-information__columnfour">
+                <ul class="contact-information__columnl">
+                    <li class="listyl"><span class="text-color text-align">Компания</span><p class="contact-information__paragraph-box">Premium Pack Industry SRL</p></li>
+                    <li class="listyl"><span class="text-color">C. F.</span><p class="contact-information__paragraph-box">1013600036231</p>
+                    <li class="listyl"><span class="text-color">BC</span><p class="contact-information__paragraph-box">ProcreditBank</p></li>
+                    <li class="listyl"><span class="text-color">C/d</span><p class="contact-information__paragraph-box">2251151060001498</p></li>
+                    <li class="listyl"><span class="text-color">BIC</span><p class="contact-information__paragraph-box">PRCBMD22</p></li>
+                    <li class="listyl"><span class="text-color">EUR</span><p class="contact-information__paragraph-box">IBANMD55PR002224151060001978</p></li>
+                    <li class="listyl"><span class="text-color">C/d</span><p class="contact-information__paragraph-box">2224151060001978</p></li>
+                    <li class="listyl"><span class="text-color">US</span><p class="contact-information__paragraph-box">IBANMD95PR002224151060001840</p></li>
+                    <li class="listyl"><span class="text-color">C/d</span><p class="contact-information__paragraph-box">2224151060001840</p></li>
+                </ul>
+              <!--  <div class="contact-information__columnfour">
                 <p class="contact-information__paragraph-box"><span class="text-color">Компания  </span>Premium Pack Industry SRL</p>
                 <p class="contact-information__paragraph-box"><span class="text-color">C. F.  </span>1013600036231</p>
                 <p class="contact-information__paragraph-box"><span class="text-color">BC  </span>ProcreditBank</p>
@@ -67,8 +113,8 @@
                 <p class="contact-information__paragraph-box"><span class="text-color">EUR  </span>IBANMD55PR002224151060001978</p>
                 <p class="contact-information__paragraph-box"><span class="text-color">C/d  </span>2224151060001978</p>
                 <p class="contact-information__paragraph-box"><span class="text-color">USD  </span>IBANMD95PR002224151060001840</p>
-                <p class="contact-information__paragraph-box"><span class="text-color">C/d  </span>2224151060001840</p>
-            </div>
+                <p class="contact-information__paragraph-box"><span class="text-color">C/d  </span>2224151060001840</p> 
+            </div> -->
             </article>
         </div>
     </main>

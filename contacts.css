@@ -4,7 +4,6 @@
 }
 
 .contact-information__title {
-  text-align: center;
   font-family: "play", sans-serif;
   font-size: 30px;
   line-height: 1.1;
@@ -41,7 +40,6 @@
   display: flex;
   gap: 10px;
   flex-direction: column;
-  margin-left: auto;
   max-width: 50%;
 }
 
@@ -53,18 +51,20 @@
   display: flex;
   flex-direction: column;
   gap: 10px;
-  margin-left: auto;
-  min-width: 50%;
+  min-width: 80%;
 }
 
 .text-color {
   color: grey;
+  min-width: 80px;
+  text-align: right;
+  padding-right: 10px;
 }
 
 .contact-information__columns-area {
   display: flex;
   flex-direction: row;
-  gap: 20px;
+  gap: 10px;
   padding-bottom: 40px;
 }
 
@@ -75,11 +75,39 @@
 .contact-information__columnthree-title {
   margin: 0;
   font-size: 18px;
+  min-width: 252px;
 }
 
 .contact-information__columnone-title {
   margin: 0;
   font-size: 18px;
+}
+
+.text-align { 
+padding-top: 3px;
+}
+
+.contact-information__columnl { 
+display: flex;
+flex-direction: column;
+row-gap: 15.5px;
+margin: 0;
+padding: 0;
+list-style-type: none;
+min-width: 60%;
+max-width: 60%;
+margin-left: auto;
+
+}
+
+.listy { 
+  display: flex;
+  flex-direction: row;
+}
+
+.listyl {
+  display: flex;
+  flex-direction: row;
 }
 
 @media screen and (min-width: 460px) and (max-width: 670px) {

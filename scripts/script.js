@@ -8,7 +8,6 @@ let headerServicesList = document.querySelector('.header__services-list');
 let headerMaterialsList = document.querySelector('.header__materials-list');
 let headerListList = document.querySelector('.header__list-list');
 
-
 headerEquipment.addEventListener('click', function(){
 headerEquipmentList.classList.toggle('header__list-list_visibility');
 headerEquipment.classList.toggle('header__list-link_active');
@@ -60,13 +59,5 @@ let headerLanguageList = document.querySelector('.header__language-list');
       console.log(headerLanguageList);
 }); */
 
-fetch('header.html')
-  .then(response => response.text())
-  .then(data => {
-    const nav = document.createElement('nav');
-    nav.innerHTML = data;
-    // Добавляем <header> на страницу
-    document.body.insertBefore(header, document.body.firstChild);
-});
 
-
+    
