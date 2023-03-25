@@ -32,19 +32,11 @@
   padding-top: 80px;
 }
 
-.contact-information__columnone {
-  /* */
-}
-
 .contact-information__columntwo {
   display: flex;
   gap: 10px;
   flex-direction: column;
   max-width: 50%;
-}
-
-.contact-information__columnthree {
-  /* */
 }
 
 .contact-information__columnfour {
