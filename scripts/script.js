@@ -88,39 +88,6 @@ const translateBtn = document.querySelector("#translateBtn");
         });
       });
 
-
-      /*
-
-      const translateBtnd = document.querySelector("#translateBtnd");
-      translateBtn.addEventListener("click", () => {
-            const elementsToTranslate = document.querySelectorAll("p, a, h1, h2");
-            const translatorUrl = "https://translate.googleapis.com/translate_a/single?client=gtx&sl=ru&tl=en&dt=t&q=";
-    
-            elementsToTranslate.forEach(element => {
-                fetch(translatorUrl + encodeURI(element.textContent))
-                    .then(response => response.json())
-                    .then(data => {
-                        element.textContent = data[0][0][0];
-                    });
-            });
-          });
-    
-
-      const translateBtnd = document.querySelector("#translateBtns");
-      translateBtn.addEventListener("click", () => {
-            const elementsToTranslate = document.querySelectorAll("p, a, h1, h2");
-            const translatorUrl = "https://translate.googleapis.com/translate_a/single?client=gtx&sl=ru&tl=en&dt=t&q=";
-    
-            elementsToTranslate.forEach(element => {
-                fetch(translatorUrl + encodeURI(element.textContent))
-                    .then(response => response.json())
-                    .then(data => {
-                        element.textContent = data[0][0][0];
-                    });
-            });
-          });
-    
-*/
  
 
 
