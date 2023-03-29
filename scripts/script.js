@@ -19,31 +19,31 @@ headerMaterialsList.classList.remove('header__list-list_visibility');
 headerMaterials.classList.remove('header__list-link_active');
 
 function equipmentName(){
-      if (headerEquipment.textContent === 'Оборудование ⬆️') { 
-            headerEquipment.textContent = 'Оборудование ⬇️'
+      if (headerEquipment.textContent === 'Оборудование ↑') { 
+            headerEquipment.textContent = 'Оборудование ↓'
                  }
                  else {
-                        headerEquipment.textContent = 'Оборудование ⬆️'
+                        headerEquipment.textContent = 'Оборудование ↑'
            }
                }
              equipmentName();
 
              function servicesNamed(){
-                if (headerServices.textContent === 'Услуги ⬆️') { 
-                    headerServices.textContent = 'Услуги ⬆️'
+                if (headerServices.textContent === 'Услуги ↑') { 
+                    headerServices.textContent = 'Услуги ↑'
                          }
                          else {
-                                headerServices.textContent = 'Услуги ⬆️'
+                                headerServices.textContent = 'Услуги ↑'
                    }
                        }
                      servicesNamed();
 
                      function materialsNamed(){
-                        if (headerMaterials.textContent === 'Материалы ⬆️') { 
-                            headerMaterials.textContent = 'Материалы ⬆️'
+                        if (headerMaterials.textContent === 'Материалы ↑') { 
+                            headerMaterials.textContent = 'Материалы ↑'
                                  }
                                  else {
-                                    headerMaterials.textContent = 'Материалы ⬆️'
+                                    headerMaterials.textContent = 'Материалы ↑'
                        }
                                  }
                                materialsNamed();
@@ -55,11 +55,11 @@ function equipmentName(){
         headerEquipment.classList.remove('header__list-link_active');
     }
     function equipmentNamed(){
-        if (headerEquipment.textContent === 'Оборудование ⬆️') { 
-              headerEquipment.textContent = 'Оборудование ⬆️'
+        if (headerEquipment.textContent === 'Оборудование ↑') { 
+              headerEquipment.textContent = 'Оборудование ↑'
                    }
                    else {
-                    headerEquipment.textContent = 'Оборудование ⬆️'
+                    headerEquipment.textContent = 'Оборудование ↑'
        }
                  }
                equipmentNamed();
@@ -74,31 +74,31 @@ headerServices.addEventListener('click', function(){
       headerMaterialsList.classList.remove('header__list-list_visibility');
       headerMaterials.classList.remove('header__list-link_active');
       function servicesName(){
-            if (headerServices.textContent === 'Услуги ⬆️') { 
-       headerServices.textContent = 'Услуги ⬇️'
+            if (headerServices.textContent === 'Услуги ↑') { 
+       headerServices.textContent = 'Услуги ↓'
             }
             else {
-                   headerServices.textContent = 'Услуги ⬆️'
+                   headerServices.textContent = 'Услуги ↑'
       }
           }
         servicesName();
 
         function equipmentNamed(){
-            if (headerEquipment.textContent === 'Оборудование ⬆️') { 
-                  headerEquipment.textContent = 'Оборудование ⬆️'
+            if (headerEquipment.textContent === 'Оборудование ↑') { 
+                  headerEquipment.textContent = 'Оборудование ↑'
                        }
                        else {
-                        headerEquipment.textContent = 'Оборудование ⬆️'
+                        headerEquipment.textContent = 'Оборудование ↑'
            }
                      }
                    equipmentNamed();
 
                    function materialsNamed(){
-                    if (headerMaterials.textContent === 'Материалы ⬆️') { 
-                        headerMaterials.textContent = 'Материалы ⬆️'
+                    if (headerMaterials.textContent === 'Материалы ↑') { 
+                        headerMaterials.textContent = 'Материалы ↑'
                              }
                              else {
-                                headerMaterials.textContent = 'Материалы ⬆️'
+                                headerMaterials.textContent = 'Материалы ↑'
                    }
                              }
                            materialsNamed();
@@ -110,11 +110,11 @@ document.addEventListener('keydown', function(event){
         headerServices.classList.remove('header__list-link_active');
     }
     function servicesNamed(){
-        if (headerServices.textContent === 'Услуги ⬆️') { 
-            headerServices.textContent = 'Услуги ⬆️'
+        if (headerServices.textContent === 'Услуги ↑') { 
+            headerServices.textContent = 'Услуги ↑'
                  }
                  else {
-                        headerServices.textContent = 'Услуги ⬆️'
+                        headerServices.textContent = 'Услуги ↑'
            }
                }
              servicesNamed();
@@ -128,30 +128,30 @@ headerMaterials.addEventListener('click', function(){
       headerEquipmentList.classList.remove('header__list-list_visibility');
       headerEquipment.classList.remove('header__list-link_active');
       function materialsName(){
-            if (headerMaterials.textContent === 'Материалы ⬆️') { 
-       headerMaterials.textContent = 'Материалы ⬇️'
+            if (headerMaterials.textContent === 'Материалы ↑') { 
+       headerMaterials.textContent = 'Материалы ↓'
             }
             else {
-                   headerMaterials.textContent = 'Материалы ⬆️'
+                   headerMaterials.textContent = 'Материалы ↑'
       }
           }
         materialsName();
 
         function servicesNamed(){
-            if (headerServices.textContent === 'Услуги ⬆️') { 
-                headerServices.textContent = 'Услуги ⬆️'
+            if (headerServices.textContent === 'Услуги ↑') { 
+                headerServices.textContent = 'Услуги ↑'
                      }
                      else {
-                            headerServices.textContent = 'Услуги ⬆️'
+                            headerServices.textContent = 'Услуги ↑'
                }
                    }
                  servicesNamed();
 
-                 if (headerEquipment.textContent === 'Оборудование ⬆️') { 
-                    headerEquipment.textContent = 'Оборудование ⬆️'
+                 if (headerEquipment.textContent === 'Оборудование ↑') { 
+                    headerEquipment.textContent = 'Оборудование ↑'
                          }
                          else {
-                          headerEquipment.textContent = 'Оборудование ⬆️'
+                          headerEquipment.textContent = 'Оборудование ↑'
              }
                        
                      equipmentNamed();
@@ -164,11 +164,11 @@ document.addEventListener('keydown', function(event){
         headerMaterials.classList.remove('header__list-link_active');
     }
     function materialsNamed(){
-        if (headerMaterials.textContent === 'Материалы ⬆️') { 
-            headerMaterials.textContent = 'Материалы ⬆️'
+        if (headerMaterials.textContent === 'Материалы ↑') { 
+            headerMaterials.textContent = 'Материалы ↑'
                  }
                  else {
-                    headerMaterials.textContent = 'Материалы ⬆️'
+                    headerMaterials.textContent = 'Материалы ↑'
        }
                  }
                materialsNamed();
