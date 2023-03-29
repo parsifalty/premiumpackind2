@@ -1,0 +1,97 @@
+.heading_h1 { 
+    font-family: 'play', sans-serif;
+    font-size: 50px;
+    font-weight: normal;
+    line-height: 1.12
+}
+
+.heading_h2 { 
+    font-family: 'play', sans-serif;
+    font-size: 44px;
+    font-weight: normal;
+    line-height: 1.1;
+}
+
+.heading_h3 {
+    font-family: 'play', sans-serif;
+    font-size: 36px;
+    font-weight: normal;
+    line-height: 1.11;
+}
+
+.heading_h4 { 
+    font-family: 'play', sans-serif;
+    font-size: 28px;
+    font-weight: normal;
+    line-height: 1.14;
+}
+
+.heading_h5 { 
+    font-family: 'play', sans-serif;
+    font-size: 24px;
+    font-weight: normal;
+    line-height: 1.17;
+}
+
+.heading_h6 { 
+    font-family: 'play', sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 1.2;
+}
+
+.text-size-xl { 
+    font-family: 'play', sans-serif;
+    font-size: 19px;
+    font-weight: normal;
+    line-height: 1.47;
+}
+
+.text-size-l { 
+    font-family: 'play', sans-serif;
+    font-size: 17px;
+    font-weight: normal;
+    line-height: 1.41;
+}
+
+.text-size-m-l { 
+    font-family: 'play', sans-serif;
+    font-size: 17px;
+    font-weight: normal;
+    line-height: 1.18;
+}
+
+.text-size-m { 
+    font-family: 'play', sans-serif;
+    font-size: 15px;
+    font-weight: normal;
+    line-height: 1.6;
+}
+
+.text-size-s-m { 
+    font-family: 'play', sans-serif;
+    font-size: 15px;
+    font-weight: normal;
+    line-height: 1.33;
+}
+
+.text-size-s { 
+    font-family: 'play', sans-serif;
+    font-size: 13px;
+    font-weight: normal;
+    line-height: 1.54;
+}
+
+.text-size-xs-s { 
+    font-family: 'play', sans-serif;
+    font-size: 13px;
+    font-weight: normal;
+    line-height: 1.23px;
+}
+
+.text-size-xs { 
+    font-family: 'play', sans-serif;
+    font-size: 11px;
+    font-weight: normal;
+    line-height: 1.45;
+}
