@@ -23,9 +23,6 @@
       .header__list-list-link {
     text-decoration: none;
     color: black;
-    font-size: 16px;
-    line-height: 1.2;
-    font-family: 'play', sans-serif;
     transition: color .3s ease-in-out;
       }
 
@@ -109,9 +106,6 @@
   .header__list-link {
     text-decoration: none;
     color: #00a300;
-    font-size: 16px;
-    line-height: 1.2;
-    font-family: 'play', sans-serif;
   }
 
   .header__list-list {
@@ -152,9 +146,6 @@
   .header__list-link_active { 
     color: red;
     text-decoration: none;
-    font-size: 16px;
-    line-height: 1.2;
-    font-family: 'play', sans-serif;
   }
 
   .header__services-list { 
@@ -183,18 +174,12 @@
 
   .intro__title {
     margin: 0 auto;
-    font-family: 'play';
-    font-size: 50px;
-    line-height: 1.2;
     min-width: 100%;
   }
 
   .intro__paragraph {
     margin: 0;
     margin-top: 20px;
-    font-family: 'play';
-    font-size: 18px;
-    color: grey;
     line-height: 1.5;
   }
 
@@ -254,8 +239,6 @@
   .possibilities__list-link {
     color: #00a300;
     text-decoration: none;
-    font-family: 'play', sans-serif;
-    font-size: 16px;
     opacity: 0.8;
   }
 
@@ -267,8 +250,6 @@
     margin: 0;
     text-decoration: none;
     color: black;
-    font-family: 'play', sans-serif;
-    line-height: 1.2;
     font-size: 25px;
     text-align: left;
   }
@@ -280,7 +261,6 @@
   }
 
   .about__title {
-    font-family: 'play';
     font-size: 30px;
     margin: 0;
     border-bottom: 5px black solid;
@@ -292,9 +272,6 @@
     margin: 0;
     padding: 0;
     color: black;
-    font-size: 17px;
-    font-family: 'play';
-    line-height: 1.5;
     margin-top: 35px;
     max-width: 650px;
   }
@@ -328,15 +305,11 @@
   .grid-template__title {
     margin: 0;
     margin-top: 10px;
-    font-family: 'play';
-    font-size: 23px;
   }
 
   .grid-template__paragraph {
     margin: 0;
     margin-top: 10px;
-    font-family: 'play';
-    font-size: 16px;
   }
 
   .footer {
@@ -350,9 +323,6 @@
 
   .footer__paragraph {
     margin: 0;
-    font-family: 'play';
-    font-size: 18px;
-    line-height: 1.6;
   }
 
   .footer__column-one {
@@ -371,9 +341,6 @@
   .footer__link {
     text-decoration: underline;
     color: black;
-    font-family: 'play';
-    font-size: 18px;
-    line-height: 1.2;
   }
 
   .circle__rotation {
@@ -486,9 +453,6 @@ padding-left: 10px;
 .header__list-link {
   text-decoration: none;
   color: #00a300;
-  font-size: 16px;
-  line-height: 1.2;
-  font-family: 'play', sans-serif;
 }
 
 .header__list-list {
@@ -529,9 +493,6 @@ padding-left: 10px;
 .header__list-link_active { 
   color: red;
   text-decoration: none;
-  font-size: 16px;
-  line-height: 1.2;
-  font-family: 'play', sans-serif;
 }
 
 .header__services-list { 
@@ -562,19 +523,13 @@ margin: 0 auto;
 
 .intro__title {
 margin: 0 auto;
-font-family: 'play';
-font-size: 50px;
-line-height: 1.2;
 min-width: 856px;
 }
 
 .intro__paragraph {
 margin: 0;
 margin-top: 20px;
-font-family: 'play';
-font-size: 18px;
 color: grey;
-line-height: 1.5;
 }
 
 .possibilities {
@@ -609,8 +564,6 @@ max-width: 210px;
 .possibilities__list-link {
 color: #00a300;
 text-decoration: none;
-font-family: 'play', sans-serif;
-font-size: 16px;
 opacity: 0.8;
 }
 
@@ -622,8 +575,6 @@ margin-top: 15px;
 margin: 0;
 text-decoration: none;
 color: black;
-font-family: 'play', sans-serif;
-line-height: 1.2;
 font-size: 25px;
 text-align: left;
 }
@@ -635,8 +586,6 @@ margin-bottom: 100px;
 }
 
 .about__title {
-font-family: 'play';
-font-size: 30px;
 margin: 0;
 border-bottom: 5px black solid;
 padding-bottom: 10px;
@@ -647,9 +596,6 @@ max-width: 190px;
 margin: 0;
 padding: 0;
 color: black;
-font-size: 17px;
-font-family: 'play';
-line-height: 1.5;
 margin-top: 35px;
 max-width: 650px;
 }
@@ -685,15 +631,11 @@ filter: none;
 .grid-template__title {
 margin: 0;
 margin-top: 10px;
-font-family: 'play';
-font-size: 23px;
 }
 
 .grid-template__paragraph {
 margin: 0;
 margin-top: 10px;
-font-family: 'play';
-font-size: 16px;
 }
 
 .footer {
@@ -707,10 +649,6 @@ padding-bottom: 100px;
 
 .footer__paragraph {
 margin: 0;
-font-family: 'play';
-font-weight: 400;
-font-size: 18px;
-line-height: 1.6;
 }
 
 .footer__column-one {
@@ -729,10 +667,6 @@ flex-direction: column;
 .footer__link {
 text-decoration: underline;
 color: black;
-font-family: 'play';
-font-weight: 400;
-font-size: 18px;
-line-height: 1.2;
 }
 
 .circle__rotation {
@@ -772,9 +706,6 @@ to {
   .header__list-list-link {
     text-decoration: none;
     color: black;
-    font-size: 16px;
-    line-height: 1.2;
-    font-family: 'play', sans-serif;
     transition: color .3s ease-in-out;
       }
 
@@ -858,9 +789,6 @@ to {
   .header__list-link {
     text-decoration: none;
     color: #00a300;
-    font-size: 16px;
-    line-height: 1.2;
-    font-family: 'play', sans-serif;
   }
 
   .header__list-list {
@@ -901,9 +829,6 @@ to {
   .header__list-link_active { 
     color: red;
     text-decoration: none;
-    font-size: 16px;
-    line-height: 1.2;
-    font-family: 'play', sans-serif;
   }
 
   .header__services-list { 
@@ -932,19 +857,12 @@ margin: 0 auto;
 
 .intro__title {
 margin: 0 auto;
-font-family: 'play';
-font-size: 50px;
-line-height: 1.2;
 }
 
 .intro__paragraph {
 margin: 0;
 margin-top: 20px;
-font-family: 'play';
-font-size: 18px;
 color: grey;
-line-height: 1.5;
-font-weight: 400;
 }
 
 .possibilities {
@@ -977,9 +895,6 @@ max-width: 210px;
 .possibilities__list-link {
 color: #00a300;
 text-decoration: none;
-font-family: 'play', sans-serif;
-font-size: 16px;
-font-weight: 400px;
 opacity: 0.8;
 }
 
@@ -991,9 +906,6 @@ margin-top: 15px;
 margin: 0;
 text-decoration: none;
 color: black;
-font-family: 'play', sans-serif;
-line-height: 1.2;
-font-size: 25px;
 text-align: left;
 }
 
@@ -1004,8 +916,6 @@ margin-bottom: 100px;
 }
 
 .about__title {
-font-family: 'play';
-font-size: 30px;
 margin: 0;
 border-bottom: 5px black solid;
 padding-bottom: 10px;
@@ -1053,18 +963,12 @@ transition: filter .5s ease-in-out;
 .grid-template__title {
 margin: 0;
 margin-top: 10px;
-font-family: 'play';
-font-weight: 700;
-font-size: 23px;
 max-width: 120px;
 }
 
 .grid-template__paragraph {
 margin: 0;
 margin-top: 10px;
-font-family: 'play';
-font-weight: 400;
-font-size: 16px;
 max-width: 100px;
 }
 
@@ -1079,10 +983,6 @@ padding-bottom: 100px;
 
 .footer__paragraph {
 margin: 0;
-font-family: 'play';
-font-weight: 400;
-font-size: 18px;
-line-height: 1.6;
 }
 
 .footer__column-one {
@@ -1101,10 +1001,6 @@ flex-direction: column;
 .footer__link {
 text-decoration: underline;
 color: black;
-font-family: 'play';
-font-weight: 400;
-font-size: 18px;
-line-height: 1.2;
 }
 
 .circle__rotation {
@@ -1169,9 +1065,6 @@ to {
     list-style-type: none;
     max-width: 200px;
     text-decoration: none;
-    font-size: 18px;
-    line-height: 1.2;
-    font-family: 'play', sans-serif;
   }
 
   .header__list-link:hover {
@@ -1237,19 +1130,13 @@ to {
 
   .intro__title {
     margin: 0;
-    font-family: 'play';
-    font-size: 30px;
-    line-height: 1.2;
     text-transform: uppercase;
   }
 
   .intro__paragraph {
     margin: 0;
     margin-top: 20px;
-    font-family: 'play';
-    font-size: 18px;
     color: grey;
-    line-height: 1.5;
     max-width: 90%;
   }
 
@@ -1285,9 +1172,6 @@ to {
   .possibilities__list-link {
     color: #00a300;
     text-decoration: none;
-    font-family: 'play', sans-serif;
-    font-size: 18px;
-    font-weight: 400px;
     opacity: 0.8;
   }
 
@@ -1299,9 +1183,6 @@ to {
     margin: 0;
     text-decoration: none;
     color: black;
-    font-family: 'play', sans-serif;
-    line-height: 1.2;
-    font-size: 25px;
     text-align: left;
   }
 
@@ -1312,9 +1193,7 @@ to {
   }
 
   .about__title {
-    font-family: 'play';
     font-size: 28px;
-    font-weight: 900;
     margin: 0;
     border-bottom: 3px solid black;
     max-width: 200px;
@@ -1324,9 +1203,6 @@ to {
     margin: 0;
     padding: 0;
     color: black;
-    font-size: 17px;
-    font-family: 'play';
-    line-height: 1.5;
     margin-top: 35px;
     max-width: 95%;
   }
@@ -1363,16 +1239,11 @@ to {
   .grid-template__title {
     margin: 0;
     margin-top: 10px;
-    font-family: 'play';
-    font-weight: 700;
-    font-size: 23px;
   }
 
   .grid-template__paragraph {
     margin: 0;
     margin-top: 10px;
-    font-family: 'play';
-    font-weight: 400;
     font-size: 16px;
   }
 }
@@ -1390,10 +1261,6 @@ to {
 
   .footer__paragraph {
     margin: 0;
-    font-family: 'play';
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 1.6;
   }
 
   .footer__column-one {
@@ -1412,10 +1279,6 @@ to {
   .footer__link {
     text-decoration: underline;
     color: black;
-    font-family: 'play';
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 1.2;
   }
 
   .circle {
